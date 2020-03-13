@@ -1,0 +1,445 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"map_eu",
+	    "ca_modules_animals",
+		"dayz_anim",
+		"dayz_code",
+		"dayz_communityassets",
+		"dayz_weapons",
+		"dayz_equip",
+		"cacharacters_pmc",
+		"ca_modules_functions",
+		"dayz_epoch",
+		"glt_m300t",
+		"pook_h13",
+		"csj_gyroac",
+		"jetskiyanahuiaddon",
+		"redryder",
+		"Anzio_20",
+		"ori_submarine","ori_flying_fortress","ori_pragacopter","origins_pack_cars","ori_scraptank","ori_bigraft","ori_smallraft","ori_titanic","ori_scrapbuggy",
+		"ori_dc3","sla_weapons","taviana_castle","rh_de_cfg","ori_taviana","cadata","camisc3","CAWheeled","camisc_e","CABuildings","CAWheeled_E","CAMisc","caair","castructures_rail","osshdy","dayz",
+		"CAWheeled_E_Old_moto","cawheeled_e_v3s","cawheeled_e_volha","CAWheeled3_M1030","cawheeled_e_s1203","CAWheeled2_Ikarus","casounds","rth_small_tent"/*,"ori_data"*/
+	};
+	addOnsAuto[]=
+	{
+		"dayz_weapons",
+		"ca_modules_functions",
+		"warfarebuildings",
+		"ori_submarine","ori_flying_fortress","ori_pragacopter","origins_pack_cars","ori_scraptank","ori_bigraft","ori_smallraft","ori_titanic","ori_scrapbuggy",
+		"ori_dc3","sla_weapons","taviana_castle","rh_de_cfg","ori_taviana","cadata","camisc3","CAWheeled","camisc_e","CABuildings","CAWheeled_E","CAMisc","caair","castructures_rail","osshdy","dayz",
+		"CAWheeled_E_Old_moto","cawheeled_e_v3s","cawheeled_e_volha","CAWheeled3_M1030","cawheeled_e_s1203","CAWheeled2_Ikarus","casounds","rth_small_tent"/*,"ori_data"*/
+	};
+	randomSeed=11171215;
+	class Intel
+	{
+		briefingName="DayZ Epoch Taviana 3.0";
+		briefingDescription="Version 1.0.6.2";
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=6;
+		day=1;
+		hour=12;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=100;
+#define PLRDEF position[]={126,0,158};azimut=0;side="WEST";vehicle="Survivor1_DZ";skill=0.6;init="this enableSimulation false;this allowDamage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";player="PLAY CDG";
+				class Item0{id=0;PLRDEF};
+				class Item1
+				{
+					position[]={126,0,158};
+					azimut=0;
+					id=0;
+					side="WEST";
+					vehicle="Survivor1_DZ";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.6;
+					init="this enableSimulation false;this allowDamage false;this disableAI 'FSM';this disableAI 'ANIM';this disableAI 'MOVE';";
+				};
+				class Item2{id=2;PLRDEF};
+				class Item3{id=3;PLRDEF};
+				class Item4{id=4;PLRDEF};
+				class Item5{id=5;PLRDEF};
+				class Item6{id=6;PLRDEF};
+				class Item7{id=7;PLRDEF};
+				class Item8{id=8;PLRDEF};
+				class Item9{id=9;PLRDEF};
+				class Item10{id=10;PLRDEF};
+				class Item11{id=11;PLRDEF};
+				class Item12{id=12;PLRDEF};
+				class Item13{id=13;PLRDEF};
+				class Item14{id=14;PLRDEF};
+				class Item15{id=15;PLRDEF};
+				class Item16{id=16;PLRDEF};
+				class Item17{id=17;PLRDEF};
+				class Item18{id=18;PLRDEF};
+				class Item19{id=19;PLRDEF};
+				class Item20{id=20;PLRDEF};
+				class Item21{id=21;PLRDEF};
+				class Item22{id=22;PLRDEF};
+				class Item23{id=23;PLRDEF};
+				class Item24{id=24;PLRDEF};
+				class Item25{id=25;PLRDEF};
+				class Item26{id=26;PLRDEF};
+				class Item27{id=27;PLRDEF};
+				class Item28{id=28;PLRDEF};
+				class Item29{id=29;PLRDEF};
+				class Item30{id=30;PLRDEF};
+				class Item31{id=31;PLRDEF};
+				class Item32{id=32;PLRDEF};
+				class Item33{id=33;PLRDEF};
+				class Item34{id=34;PLRDEF};
+				class Item35{id=35;PLRDEF};
+				class Item36{id=36;PLRDEF};
+				class Item37{id=37;PLRDEF};
+				class Item38{id=38;PLRDEF};
+				class Item39{id=39;PLRDEF};
+				class Item40{id=40;PLRDEF};
+				class Item41{id=41;PLRDEF};
+				class Item42{id=42;PLRDEF};
+				class Item43{id=43;PLRDEF};
+				class Item44{id=44;PLRDEF};
+				class Item45{id=45;PLRDEF};
+				class Item46{id=46;PLRDEF};
+				class Item47{id=47;PLRDEF};
+				class Item48{id=48;PLRDEF};
+				class Item49{id=49;PLRDEF};
+				class Item50{id=50;PLRDEF};
+				class Item51{id=51;PLRDEF};
+				class Item52{id=52;PLRDEF};
+				class Item53{id=53;PLRDEF};
+				class Item54{id=54;PLRDEF};
+				class Item55{id=55;PLRDEF};
+				class Item56{id=56;PLRDEF};
+				class Item57{id=57;PLRDEF};
+				class Item58{id=58;PLRDEF};
+				class Item59{id=59;PLRDEF};
+				class Item60{id=60;PLRDEF};
+				class Item61{id=61;PLRDEF};
+				class Item62{id=62;PLRDEF};
+				class Item63{id=63;PLRDEF};
+				class Item64{id=64;PLRDEF};
+				class Item65{id=65;PLRDEF};
+				class Item66{id=66;PLRDEF};
+				class Item67{id=67;PLRDEF};
+				class Item68{id=68;PLRDEF};
+				class Item69{id=69;PLRDEF};
+				class Item70{id=70;PLRDEF};
+				class Item71{id=71;PLRDEF};
+				class Item72{id=72;PLRDEF};
+				class Item73{id=73;PLRDEF};
+				class Item74{id=74;PLRDEF};
+				class Item75{id=75;PLRDEF};
+				class Item76{id=76;PLRDEF};
+				class Item77{id=77;PLRDEF};
+				class Item78{id=78;PLRDEF};
+				class Item79{id=79;PLRDEF};
+				class Item80{id=80;PLRDEF};
+				class Item81{id=81;PLRDEF};
+				class Item82{id=82;PLRDEF};
+				class Item83{id=83;PLRDEF};
+				class Item84{id=84;PLRDEF};
+				class Item85{id=85;PLRDEF};
+				class Item86{id=86;PLRDEF};
+				class Item87{id=87;PLRDEF};
+				class Item88{id=88;PLRDEF};
+				class Item89{id=89;PLRDEF};
+				class Item90{id=90;PLRDEF};
+				class Item91{id=91;PLRDEF};
+				class Item92{id=92;PLRDEF};
+				class Item93{id=93;PLRDEF};
+				class Item94{id=94;PLRDEF};
+				class Item95{id=95;PLRDEF};
+				class Item96{id=96;PLRDEF};
+				class Item97{id=97;PLRDEF};
+				class Item98{id=98;PLRDEF};
+				class Item99{id=99;PLRDEF};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-144,0,2320};
+					id=50;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.6;
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=25;
+		class Item0
+		{
+			position[]={10732,193,12687};
+			name="center";
+			type="Empty";
+			a=10000;b=10000;
+		};
+		class Item1
+		{
+			position[]={125,0,158};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={8529.48,0,20048.7};
+			name="spawn0";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={2802.81,0,7205.48};
+			name="spawn1";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={11089.6,0,946.313};
+			name="spawn3";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={16997.6,0,7167.6};
+			name="spawn4";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={12604.4,0,11519.2};
+			name="spawn5";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={10732,193,12687};
+			name="crashsites";
+			type="Empty";
+			a=10000;b=10000;
+		};
+		class Item8
+		{
+			position[]={10732,193,12687};
+			name="carepackages";
+			type="Empty";
+			a=10000;b=0;
+		};
+        class Item9
+		{
+			position[]={11698,-114,15210};
+			name="TraderCityLyepestok";
+			text="Trader City Lyepestok";
+			type="mil_circle";
+			colorName="ColorOrange";
+		};
+		class Item10
+		{
+			position[]={15309,-14,9278};
+			name="TraderCitySabina";
+			text="Trader City Sabina";
+			type="mil_circle";
+			colorName="ColorOrange";
+		};
+		class Item11
+		{
+			position[]={5538,-35,8762};
+			name="TraderCityBilgrad";
+			text="Trader City Bilgrad";
+			type="mil_circle";
+			colorName="ColorOrange";
+		};
+		class Item12
+		{
+			position[]={7376,-34,4296};
+			name="TraderCityBranibor";
+			text="Trader City Branibor";
+			type="mil_circle";
+			colorName="ColorOrange";
+		};
+		class Item13
+		{
+			position[]={10948,-10,654};
+			name="BanditVendor";
+			text="Bandit Vendor";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item14
+		{
+			position[]={15587,-35,16394};
+			name="HeroVendor";
+			text="Hero Vendor";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item15
+		{
+			position[]={16555,-44,10159};
+			name="AircraftDealer";
+			text="Aircraft Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item16
+		{
+			position[]={6815,7,8534};
+			name="AircraftDealer2";
+			text="Aircraft Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item17
+		{
+			position[]={4066,-36,7265};
+			name="Misc.Vendor";
+			text="Misc. Vendor";
+			type="mil_box";
+			colorName="ColorGreen";
+		};
+		class Item18
+		{
+			position[]={17497,-235,7159};
+			name="Misc.Vendor2";
+			text="Misc. Vendor";
+			type="mil_box";
+			colorName="ColorGreen";
+		};
+		class Item19
+		{
+			position[]={17332,5,12930};
+			name="BoatDealer";
+			text="Boat Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item20
+		{
+			position[]={10570,-0,16772};
+			name="BoatDealer2";
+			text="Boat Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item21
+		{
+			position[]={10698,0,5983};
+			name="BoatDealer3";
+			text="Boat Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item22
+		{
+			position[]={5419,-2,9503};
+			name="BoatDealer4";
+			text="Boat Dealer";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item23
+		{
+			position[]={13342,-172,8611};
+			name="Wholesaler";
+			text="Wholesaler";
+			type="mil_box";
+			colorName="ColorBlack";
+		};
+		class Item24
+		{
+			position[]={9859,-173,7471};
+			name="Wholesaler2";
+			text="Wholesaler";
+			type="mil_box";
+			colorName="ColorBlack";
+		};		
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"ori_taviana"
+	};
+	addOnsAuto[]=
+	{
+		"ori_taviana"
+	};
+	randomSeed=6913869;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"ori_taviana"
+	};
+	addOnsAuto[]=
+	{
+		"ori_taviana"
+	};
+	randomSeed=4081731;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"ori_taviana"
+	};
+	addOnsAuto[]=
+	{
+		"ori_taviana"
+	};
+	randomSeed=4975929;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+	};
+};
