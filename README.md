@@ -6,7 +6,7 @@
     https://epochmod.com/forum/topic/44789-salivals-mod-pack-all-my-mods-tested-working/
 
 I added the following mods to it:
-    - DZMS
+    - DZAI
     - WAI
     - Select Spawn
 
