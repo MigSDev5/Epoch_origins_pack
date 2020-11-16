@@ -4,6 +4,7 @@
 */
 
 //Server settings
+
 dayZ_instance = 11; //Instance ID of this server
 dayZ_serverName = ""; //Shown to all players in the bottom left of the screen (country code + server number)
 
