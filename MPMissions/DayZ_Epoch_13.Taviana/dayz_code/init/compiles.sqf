@@ -239,7 +239,7 @@ if (!isDedicated) then {
 	};
 
 	ui_initDisplay = {
-		private["_controleSomeil","_controleSomeilInt","_controleSablier","_controleIntSablier","_ctrlFlecheSang","_ctrlFlecheBoisson","_ctrlFlecheBouffe","_ctrlFlecheTemper","_ctrl","_contoleMission","_control","_ctrlBleed","_display","_ctrlFracture","_ctrlDogFood","_ctrlDogWater","_ctrlDogWaterBorder", "_ctrlDogFoodBorder"];
+		private["_control","_ctrlBleed","_display","_ctrlFracture","_ctrlDogFood","_ctrlDogWater","_ctrlDogWaterBorder", "_ctrlDogFoodBorder"];
 		disableSerialization;
 		_display = uiNamespace getVariable 'DAYZ_GUI_display';
 		_control = 	_display displayCtrl 1204;
